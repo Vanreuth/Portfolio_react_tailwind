@@ -4,36 +4,39 @@
 
 ## About Me
 
-Welcome to my frontend developer portfolio! I'm **[HENG VANREUTH]**, a passionate and dedicated frontend developer with **[1]** years of experience building engaging and responsive web applications. I specialize in creating intuitive user interfaces and seamless user experiences, leveraging modern web technologies.
+Welcome to my frontend developer portfolio! I'm **HENG VANREUTH**, a passionate and dedicated frontend developer with **1** years of experience building engaging and responsive web applications. I specialize in creating intuitive user interfaces and seamless user experiences, leveraging modern web technologies.
 
 My goal is to craft performant, accessible, and visually appealing web solutions that solve real-world problems. I'm always eager to learn new technologies and improve my skills to deliver the best possible results.
 
 ---
 
-## Skills
+## Tech Stack
 
-Here are some of the key technologies and tools I work with:
+- ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB) **React** – Component-based UI development  
+- ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=FFD62E) **Vite** – Lightning-fast build tool  
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white) **TailwindCSS** – Utility-first CSS for styling  
+- ![Lucide Icons](https://img.shields.io/badge/Lucide-000000?style=flat&logo=lucide&logoColor=white) **Lucide Icons** – Clean and beautiful icon pack  
+- ![Radix UI](https://img.shields.io/badge/Radix_UI-FFFFFF?style=flat&logo=radix-ui&logoColor=000000) **Radix UI** – Accessible component primitives  
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) **TypeScript (optional)** – Type safety and tooling  
+- ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white) **GitHub & Vercel** – Deployment  
 
-**Languages:**
-* JavaScript (ES6+)
-* HTML5
-* CSS3
+---
+## Features
 
-**Frameworks & Libraries:**
-* React
-* Next.js
-* Redux
-* Tailwind CSS
-* Bootstrap
+- 🌗 **Light/Dark Mode Toggle**  
+    Save theme preference in local storage with beautiful transitions.
 
-**Tools & Platforms:**
-* Git & GitHub
-* npm
-* Vite
-* VS Code
-* Figma (basic)
-* Responsive Design Principles
-* Cross-Browser Compatibility
+- 📱 **Responsive Navigation**  
+    Desktop and mobile menus for seamless browsing.
+
+- 🖼️ **Projects Showcase**  
+    Display screenshots, tech stacks, and GitHub/demo links with engaging layouts.
+
+- 🚀 **One-Click Deployment**  
+    Easily host your site with Vercel and GitHub.
+
+- 🎞️ **Animated with AOS**  
+    Smooth scroll-based animations using [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/) for an interactive user experience.
 
 ---
 
@@ -114,13 +117,13 @@ If you'd like to explore any of these projects on your local machine:
 
 I'm open to new opportunities and collaborations! Feel free to reach out.
 
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
-* **LinkedIn:** [https://www.linkedin.com/in/yourprofile/](https://www.linkedin.com/in/yourprofile/)
-* **GitHub:** [https://github.com/yourusername](https://github.com/yourusername)
-* **Personal Website (if applicable):** [https://www.yourwebsite.com](https://www.yourwebsite.com)
+- 📧 **Email:** [hengvanreuth.17@gmail.com](mailto:hengvanreuth.17@gmail.com)
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/heng-vanreuth-0051812a0/](https://www.linkedin.com/in/heng-vanreuth-0051812a0/)
+- 🐙 **GitHub:** [https://github.com/Vanreuth](https://github.com/Vanreuth)
+- 🌐 **Personal Website:** [https://www.yourwebsite.com](https://www.yourwebsite.com)
 
 ---
 
 ## License
 
-This portfolio and its contents are © [HENG VANREUTH] [Current Year]. All rights reserved. Individual project licenses are specified within their respective repositories.
+This portfolio and its contents are © HENG VANREUTH 2025. All rights reserved. Individual project licenses are specified within their respective repositories.
