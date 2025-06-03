@@ -11,7 +11,6 @@ import node from './skill/nodejs.svg';
 import nextjs from './skill/nextjs.svg';
 import ts from './skill/ts.svg';
 import express from './skill/expressjs.svg';
-import mongo from './skill/mongoDB.svg';
 import postgre from './skill/Postgresql.svg';
 import git from './skill/git.svg';
 import figma from './skill/figma.svg';
@@ -38,7 +37,6 @@ export {
   nextjs,
   ts,
   express,
-  mongo,
   postgre,
   git,
   figma,
