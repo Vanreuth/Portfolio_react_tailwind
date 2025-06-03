@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
-import { html ,js ,react ,redux , tailwind ,bootstrap,node, nextjs ,ts,express,mongo, postgre,git,figma,vscode} from "../assets";
+import { html ,js ,react ,redux , tailwind ,bootstrap,node, nextjs ,ts,express,git,figma,vscode} from "../assets";
 
 const skills = [
   { name: "HTML/CSS", level: 95, category: "frontend", icon: html,des: "HTML and CSS are the foundational technologies for building web pages. HTML provides the structure, while CSS styles the content." },
