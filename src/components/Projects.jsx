@@ -4,12 +4,12 @@ import { project ,project2} from "../assets/index";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "World of Tourist Places",
+    description: "Search and find tourist places around the world.",
     image: project,
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demoUrl: "https://turist-places.vercel.app/",
+    githubUrl: "https://github.com/Vanreuth/TuristPlaces",
   },
   {
     id: 2,
@@ -18,18 +18,18 @@ const projects = [
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: project,
     tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://hengvanreuth.vercel.app/",
+    githubUrl: "https://github.com/yourusername/orbit-analytics-dashboard",
   },
   {
     id: 3,
     title: "E-commerce Platform",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Converted E-commerce platform from HTML/CSS/Bootstrap to React with payment processing.",
     image: project2,
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Fake Store API", "PayPal"],
+    demoUrl: "https://hengvanreuth.vercel.app/",
+    githubUrl: "https://github.com/Vanreuth/Ecommerce-Fashion",
   },
 ];
 
@@ -113,7 +113,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Vanreuth"
             rel="noopener noreferrer"
           >
             Check My Github <ArrowRight size={16} />

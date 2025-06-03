@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-24 px-4 relative ">
+    <section id="about" className="py-24  relative ">
       <div className="container mx-auto max-w-5xl">
         <h2
           data-aos="fade-up"
@@ -19,28 +19,21 @@ export const AboutSection = () => {
               data-aos-delay="100"
               className="text-2xl font-semibold"
             >
-              Passionate Web Developer & Tech Creator
+              Frontend Developer & Tech Enthusiast
             </h3>
 
             <p
               data-aos="fade-right"
               data-aos-delay="200"
-             
             >
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I am a frontend developer with 6 months of internship experience, focused on building responsive and user-friendly web applications using modern technologies.
             </p>
 
             <p
               data-aos="fade-right"
               data-aos-delay="300"
-              
             >
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+              I enjoy solving problems with clean code and intuitive design, and I am always eager to learn new tools and frameworks to improve my skills.
             </p>
 
             <div
@@ -54,7 +47,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://drive.google.com/file/d/1fPxVDxJN4f6pk-nILskObdTkjJX1iKY9/view?usp=sharing"
                 className="px-6 py-2 rounded-full border border-blue-400 text-blue-400 hover:bg-blue-400/10 transition-colors duration-300"
               >
                 Download CV
@@ -75,8 +68,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> Web Development</h4>
                   <p >
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Building responsive websites and web applications with modern frameworks.
                   </p>
                 </div>
               </div>
@@ -93,8 +85,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">UI/UX Design</h4>
                   <p>
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Designing intuitive user interfaces and seamless user experiences.
                   </p>
                 </div>
               </div>
@@ -110,10 +101,9 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Project Collaboration</h4>
                   <p>
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Working with teams to deliver quality projects during my internship experience.
                   </p>
                 </div>
               </div>

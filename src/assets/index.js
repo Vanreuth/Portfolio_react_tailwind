@@ -17,6 +17,9 @@ import git from './skill/git.svg';
 import figma from './skill/figma.svg';
 import vscode from './skill/vscode.svg';
 import project2 from './project/project2.png';
+import code1 from './code1.jpeg';
+import code2 from './code2.jpeg';
+
 
 
 
@@ -39,5 +42,7 @@ export {
   postgre,
   git,
   figma,
-  vscode
+  vscode,
+  code1,
+  code2,
 };
