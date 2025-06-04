@@ -26,7 +26,7 @@ export const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed w-full z-40 transition-all duration-300 ",
+        "fixed w-full z-20 top-0 start-0  border-b border-gray-200 dark:bg-background dark:border-gray-600 transition-all duration-300",
         isScrolled ? "py-3 shadow-xs" : "py-5"
       )}
     >
@@ -39,7 +39,7 @@ export const Navbar = () => {
             className="w-8 h-8"
             style={{ objectFit: "contain" }}
           />
-          <span className="font-bold text-xl ">Heng Vanreuth</span>
+          <span className="font-bold text-base md:text-lg">Heng Vanreuth</span>
         </NavLink>
 
         {/* Desktop nav */}
@@ -68,7 +68,7 @@ export const Navbar = () => {
         <div className="md:hidden flex items-center space-x-4">
           <ThemeToggle />
           <button
-            className="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"
+            className="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-8"
             onClick={() => {
               const navMenu = document.getElementById("mobile-nav");
               if (navMenu) {
@@ -77,7 +77,7 @@ export const Navbar = () => {
             }}
           >
             <svg
-              className="w-6 h-6 text-gray-800 dark:text-gray-200"
+              className="w-6 h-6 text-foreground dark:text-foreground"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -95,7 +95,7 @@ export const Navbar = () => {
         {/* Mobile nav menu */}
         <div
           id="mobile-nav"
-          className="md:hidden fixed top-0 left-0 w-full h-full bg-white dark:bg-gray-900 bg-opacity-95 dark:bg-opacity-95 z-50 flex flex-col items-center justify-center space-y-8 hidden transition-all duration-300"
+          className="md:hidden fixed top-0 left-0 w-full h-full bg-background dark:bg-background z-50 flex flex-col items-center justify-center space-y-8 hidden transition-all duration-300"
         >
           <button
             className="absolute top-6 right-6 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500"

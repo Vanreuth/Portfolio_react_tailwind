@@ -12,23 +12,25 @@ export const Footer = () => {
   };
 
   return (
-    <footer className=" pt-16 pb-8 px-4 relative border-t border-border">
+    <footer className=" pt-8 md:pt-16 pb-8 px-4 relative border-t border-border">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
         <div
-          className="flex items-center md:items-start"
+          className="flex flex-col sm:flex-row items-center sm:items-start w-full sm:w-auto"
           data-aos="fade-up"
           data-aos-delay="100"
         >
           <img
             src={profile}
             alt="Profile"
-            className="w-32 h-32 rounded-full object-cover border-4 border-[#23262A] mb-4 mt-4"
+            className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full object-cover border-4  mb-4 mt-4"
           />
-          <div className="flex flex-col items-center md:items-start gap-2 mr-6 p-4">
+          <div className="flex flex-col items-center sm:items-start gap-2 sm:ml-6 p-4">
             <h2 className="text-2xl font-semibold ">Heng Vanreuth</h2>
-            <p className="text-muted-foreground text-sm">Front end Web Developer</p>
-            <div className="flex flex-col items-center md:items-start mt-4">
-              <div className="flex gap-6">
+            <p className="text-muted-foreground text-sm">
+              Front end Web Developer
+            </p>
+            <div className="flex flex-col items-center sm:items-start mt-4">
+              <div className="flex gap-4 sm:gap-6 flex-wrap justify-center sm:justify-start">
                 <a
                   href="https://www.facebook.com/share/15hDXxmTGp"
                   target="_blank"
@@ -52,7 +54,7 @@ export const Footer = () => {
                   className="text-gray-400 hover:text-blue-400 transition duration-300 transform hover:scale-110"
                 >
                   <svg
-                    className="w-9 h-10"
+                    className="w-8 h-8"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                   >
@@ -101,7 +103,9 @@ export const Footer = () => {
           <div>
             <div className="flex flex-col md:flex-row gap-8">
               <div>
-                <div className="text-muted-foreground font-semibold">EMAIL ME:</div>
+                <div className="text-muted-foreground font-semibold">
+                  EMAIL ME:
+                </div>
                 <a
                   href="mailto:hengvanreuth.17@gmail.com"
                   className=" flex items-center gap-2 hover:underline"
@@ -111,7 +115,9 @@ export const Footer = () => {
                 </a>
               </div>
               <div>
-                <div className="text-muted-foreground font-semibold">CALL ME:</div>
+                <div className="text-muted-foreground font-semibold">
+                  CALL ME:
+                </div>
                 <span className="">0883386537</span>
               </div>
             </div>
@@ -121,13 +127,22 @@ export const Footer = () => {
       <div className="border-t border-[#23262A] my-8"></div>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
         <nav className="flex gap-8 text-white text-base">
-          <Link to="/home" className="hover:text-primary transition">Home</Link>
-          <Link to="/about" className="hover:text-primary transition">About</Link>
-          <Link to="/blog" className="hover:text-primary transition">Blog</Link>
-          <Link to="/portfolio" className="hover:text-primary transition">Portfolio</Link>
+          <Link to="/home" className="hover:text-primary transition">
+            Home
+          </Link>
+          <Link to="/about" className="hover:text-primary transition">
+            About
+          </Link>
+          <Link to="/blog" className="hover:text-primary transition">
+            Blog
+          </Link>
+          <Link to="/portfolio" className="hover:text-primary transition">
+            Portfolio
+          </Link>
         </nav>
         <p className="text-muted-foreground text-sm text-center">
-          &copy; Copyright 2025 All rights reserved by Heng Vanreuth | Developed by{" "}
+          &copy; Copyright 2025 All rights reserved by Heng Vanreuth | Developed
+          by{" "}
           <a
             href="https://github.com/Vanreuth"
             className="underline hover:text-primary"

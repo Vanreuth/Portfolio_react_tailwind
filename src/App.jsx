@@ -11,6 +11,7 @@ import { AboutSection } from './components/AboutSection'
 import { ContactSection } from './components/ContactSection'
 import { ProjectsSection } from './components/Projects'
 import { Footer } from './components/Footer'
+import Layout from './components/Layout'
 
 const App = () => {
   React.useEffect(() => {
@@ -22,21 +23,24 @@ const App = () => {
   }, [])
   const [loading, setLoading] = React.useState(true)
   return (
-    <BrowserRouter>
-      {loading && <LoadingScreen onComplete={() => setLoading(false)} />}
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/hero" element={<Home />} />
-        <Route path="/about-me" element={<About />} />
-        <Route path="/contact" element={<ContactSection />} />
-        <Route path="/projects" element={<ProjectsSection />} />
+    <Layout>
+      <BrowserRouter>
+        {loading && <LoadingScreen onComplete={() => setLoading(false)} />}
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/hero" element={<Home />} />
+          <Route path="/about-me" element={<About />} />
+          <Route path="/contact" element={<ContactSection />} />
+          <Route path="/projects" element={<ProjectsSection />} />
         <Route path="/more-about-me" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </BrowserRouter>
+    </Layout>
+
   )
 }
 

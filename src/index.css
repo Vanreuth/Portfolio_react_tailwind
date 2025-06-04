@@ -97,12 +97,13 @@
     font-family: var(--font-sans);
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-gray-100 text-gray-900 dark:bg-background dark:text-foreground;
     margin: 0 auto;
     padding: 0;
     line-height: 1.5;
     font-size: 16px;
     color: var(--color-foreground);
+    /* index.css or globals.css */
   }
 }
 

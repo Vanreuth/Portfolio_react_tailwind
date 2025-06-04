@@ -5,14 +5,14 @@ export const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen font-sans flex items-center justify-center py-8 px-4 sm:px-6 lg:px-8 "
+      className="relative min-h-screen font-sans flex items-center justify-center py-8 px-4 sm:px-10 lg:px-8 mt-10"
     >
       <div className="container mx-auto flex flex-col md:flex-row md:items-center md:space-x-15 z-10 max-w-7xl">
         <div className="flex-1 md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mb-12 md:mb-0">
           <div
             data-aos="zoom-in"
             data-aos-delay="300"
-            className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden flex items-center justify-center mb-8 md:mb-0 border-4 border-gray-700 shadow-xl"
+            className=" mt-6 md:mt-0 w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden flex items-center justify-center mb-8 md:mb-0 border-4 border-gray-700 shadow-xl"
           >
             <img
               src={profile}
