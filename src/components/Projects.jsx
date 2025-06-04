@@ -1,5 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
-import { project ,project2} from "../assets/index";
+import { project ,project2,project3} from "../assets/index";
 
 const projects = [
   {
@@ -13,19 +13,19 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "E-commerce Platform",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: project,
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "https://hengvanreuth.vercel.app/",
-    githubUrl: "https://github.com/yourusername/orbit-analytics-dashboard",
+      "Build E commerce platform with React with tailwind CSS full  feture with cart and payment system.",
+    image: project3,
+    tags: ["React", "Tailwind CSS"],	
+    demoUrl: "https://vanreutheccomerce.vercel.app/",
+    githubUrl: "https://github.com/Vanreuth/Ecommerce",
   },
   {
     id: 3,
     title: "E-commerce Platform",
     description:
-      "Converted E-commerce platform from HTML/CSS/Bootstrap to React with payment processing.",
+      "Converted E-commerce platform from HTML/CSS/Bootstrap to React with Fake Store API integration and PayPal payment processing.",
     image: project2,
     tags: ["React", "Fake Store API", "PayPal"],
     demoUrl: "https://hengvanreuth.vercel.app/",

@@ -17,6 +17,7 @@ import vscode from './skill/vscode.svg';
 import project2 from './project/project2.png';
 import code1 from './code1.jpeg';
 import code2 from './code2.jpeg';
+import project3 from './project/project3.png';
 
 
 
@@ -26,6 +27,7 @@ export {
   profile,
   project,
   project2,
+  project3,
   html,
   js,
   react,
